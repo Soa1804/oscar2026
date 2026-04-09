@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>98th Academy Awards | Melhor Canção Original</title>
+    
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="dark-theme">
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">OSCAR 2026</div>
+            <div class="nav-links">
+                <a href="../index.html">Home</a>
+                <a href="../categorias.html">Categorias</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-bg">
+                <div class="hero-overlay"></div>
+                <img src="../imagens/imagens_categorias/melhor_filme.jpg" alt="Cinematic Stage">
+            </div>
+            <div class="hero-content">
+                <p class="tagline">98th Annual Academy Awards</p>
+                <h1 class="hero-title">Melhor <span class="italic-text">Canção Original</span></h1>
+                <p class="hero-description">
+                    Conheça os candidatos à Premiação do Oscar 2026 por Melhor Canção Original.
+                </p>
+            </div>
+        </section>
+
+        <section class="gallery-container">
+            <div class="nominee-card">
+                <div class="nominee-image group">
+                    <img src="../imagens/Melhor_Cancao_Original/Guerreiras_Do_KPop.jpg" alt="Guerreiras do K-Pop">
+                </div>
+                <div class="nominee-info">
+                    <p class="vencedor">Vencedora</p>
+                    <h2 class="name-movie">"Golden" – Guerreiras do K-Pop</h2>
+                    <div class="divider"></div>
+                    <audio id="audioKpop">
+                        <source src="../Sons/Melhor_Cancao_Original/Golden_KPop_Demon_Hunters.mp3" type="audio/mpeg">
+                    </audio>
+                    <button class="btn btn-gold" onclick="Kpop()">
+                        Escutar Canção
+                    </button>
+
+                    <script>
+                        function Kpop() {
+                            const audio = document.getElementById("audioKpop");
+
+                            if (audio.paused) {
+                                audio.play();
+                            } else {
+                                audio.pause();
+                            }
+                        }
+                    </script>
+                    <div class="divider"></div>
+                    <p class="description">Composição: Produzida por nomes de peso do K-pop real (como Teddy Park ou equipe da HYBE) em colaboração com compositores de trilhas sonoras.</p>
+                    <p class="description">Contexto no Filme: É o "hino de união" das protagonistas. A música toca durante a transformação final ou o grande show que encerra o conflito, simbolizando o brilho e a resiliência das personagens.</p>
+                    <p class="description">Estilo: Um pop enérgico com batidas eletrônicas pesadas, harmonias vocais complexas e uma ponte épica que mistura coreano e inglês. É a canção "chiclete" e comercial da edição.</p>
+                </div>
+            </div>
+
+            <div class="nominee-card">
+                <div class="nominee-image group">
+                    <img src="../imagens/Melhor_Cancao_Original/Pecadores.jpg" alt="Pecadores">
+                </div>
+                <div class="nominee-info">
+                    <h2 class="name-movie">"I Lied to You" – Pecadores (Sinners)</h2>
+                    <div class="divider"></div>
+                    <audio id="audioPecadores">
+                        <source src="../Sons/Melhor_Cancao_Original/Pecadores_I_Lied_to_You_Miles_Caton.mp3" type="audio/mpeg">
+                    </audio>
+                    <button class="btn btn-gold" onclick="Pecadores()">
+                        Escutar Canção
+                    </button>
+
+                    <script>
+                        function Pecadores() {
+                            const audio = document.getElementById("audioPecadores");
+
+                            if (audio.paused) {
+                                audio.play();
+                            } else {
+                                audio.pause();
+                            }
+                        }
+                    </script>
+                    <div class="divider"></div>
+                    <p class="description">Composição: Ludwig Göransson (que também assina a trilha) e possivelmente uma colaboração com artistas como Childish Gambino ou Kendrick Lamar.</p>
+                    <p class="description">Contexto no Filme: Uma balada tensa e carregada de alma que toca nos créditos ou em um momento de revelação dolorosa. Ela reflete os segredos sombrios entre os irmãos protagonistas.</p>
+                    <p class="description">Estilo: Um R&B gótico, com vocais sussurrados, uso pesado de cordas e uma atmosfera de paranoia. É uma música que evoca desconforto e tristeza profunda.</p>
+                </div>
+            </div>
+
+            <div class="nominee-card">
+                <div class="nominee-image group">
+                    <img src="../imagens/Melhor_Cancao_Original/Viva_Verdi.jpg" alt="Viva Verdi">
+                </div>
+                <div class="nominee-info">
+                    <h2 class="name-movie">"Sweet Dreams of Joy" – Viva Verdi</h2>
+                    <div class="divider"></div>
+                    <audio id="audioDreams">
+                        <source src="../Sons/Melhor_Cancao_Original/Sweet_Dreams_of_Joy.mp3" type="audio/mpeg">
+                    </audio>
+
+                    <button class="btn btn-gold" onclick="Dreams()">
+                        Escutar Canção
+                    </button>
+
+                    <script>
+                        function Dreams() {
+                            const audio = document.getElementById("audioDreams");
+                            
+                            if (audio.paused) {
+                                audio.play();
+                            } else {
+                                audio.pause();
+                            }
+                        }
+                    </script>
+                    <div class="divider"></div>
+                    <p class="description">Composição: Uma peça original escrita ao estilo das árias de Giuseppe Verdi, mas com uma estrutura de balada cinematográfica moderna.</p>
+                    <p class="description">Contexto no Filme: Interpretada pela protagonista em um momento de triunfo artístico ou desabafo emocional sobre sua carreira na ópera.</p>
+                    <p class="description">Estilo: Clássico-Crossover. Exige um alcance vocal imenso e uma orquestração luxuosa. É o tipo de canção que "para o filme" para uma exibição de puro talento vocal.</p>
+                </div>
+            </div>
+
+            <div class="nominee-card">
+                <div class="nominee-image group">
+                    <img src="../imagens/Melhor_Cancao_Original/Sonhos_De_Trem.jpg" alt="Sonhos de Trem">
+                </div>
+                <div class="nominee-info">
+                    <h2 class="name-movie">"Train Dreams" – Sonhos de Trem</h2>
+                    <div class="divider"></div>
+                    <audio id="audioSonhosdeTrem">
+                        <source src="../Sons/Melhor_Cancao_Original/Train_Dreams_Release.mp3" type="audio/mpeg">
+                    </audio>
+
+                    <button class="btn btn-gold" onclick="SonhosdeTrem()">
+                        Escutar Canção
+                    </button>
+
+                    <script>
+                        function SonhosdeTrem() {
+                            const audio = document.getElementById("audioSonhosdeTrem");
+                            
+                            if (audio.paused) {
+                                audio.play();
+                            } else {
+                                audio.pause();
+                            }
+                        }
+                    </script>
+                    <div class="divider"></div>
+                    <p class="description">Composição: Estilo Americana/Folk, possivelmente composta por artistas como Jason Isbell ou Brandi Carlile.</p>
+                    <p class="description">Contexto no Filme: Serve como o tema recorrente da solidão do trabalhador Robert Grainier. A canção captura a vastidão das florestas do Oeste Americano e a passagem inexorável do tempo.</p>
+                    <p class="description">Estilo: Melancólico, focado no violão acústico, gaita e letras poéticas que falam sobre luto e memória. É a canção mais íntima e "terrena" da lista.</p>
+                </div>
+            </div>
+
+            <div class="nominee-card">
+                <div class="nominee-image group">
+                    <img src="../imagens/Melhor_Cancao_Original/Diane_Warren_Relentless.jpg" alt="Diana Warren">
+                </div>
+                <div class="nominee-info">
+                    <h2 class="name-movie">"Dear Me" – Diane Warren: Relentless</h2>
+                    <div class="divider"></div>
+                    <audio id="audioRelentless">
+                        <source src="../Sons/Melhor_Cancao_Original/Kesha_Dear_Me.mp3" type="audio/mpeg">
+                    </audio>
+
+                    <button class="btn btn-gold" onclick="Relentless()">
+                        Escutar Canção
+                    </button>
+
+                    <script>
+                    function Relentless() {
+                        const audio = document.getElementById("audioRelentless");
+                        
+                        if (audio.paused) {
+                            audio.play();
+                        } else {
+                            audio.pause();
+                        }
+                    }
+                    </script>
+                    <div class="divider"></div>
+                    <p class="description">Composição: Diane Warren (sua 16ª ou 17ª indicação, mantendo sua lendária resiliência).</p>
+                    <p class="description">Contexto no Filme: Escrita especificamente para o documentário sobre a vida e a carreira da própria Diane. É uma carta de amor à sua persistência e ao seu processo criativo.</p>
+                    <p class="description">Estilo: Uma "power ballad" clássica, com um refrão crescente e letra inspiracional. Geralmente interpretada por uma grande diva do pop ou do soul para garantir o impacto emocional necessário para a Academia.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>
