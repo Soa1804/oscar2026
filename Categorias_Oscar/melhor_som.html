@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>98th Academy Awards | Melhor Som</title>
+    
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="dark-theme">
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">OSCAR 2026</div>
+            <div class="nav-links">
+                <a href="../index.html">Home</a>
+                <a href="../categorias.html">Categorias</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-bg">
+                <div class="hero-overlay"></div>
+                <img src="../imagens/imagens_categorias/melhor_som.jpg" alt="Cinematic Stage">
+            </div>
+            <div class="hero-content">
+                <p class="tagline">98th Annual Academy Awards</p>
+                <h1 class="hero-title">Melhor <span class="italic-text">Som</span></h1>
+                <p class="hero-description">
+                    Conheça os candidatos à Premiação do Oscar 2026 por Melhor Som.
+                </p>
+            </div>
+        </section>
+
+        <section class="gallery-container">
+            <div class="nominee-card">
+                <div class="nominee-image group">
+                    <img src="../imagens/Melhor_Som/F1.jpg" alt="F1: O Filme">
+                </div>
+                <div class="nominee-info">
+                    <p class="vencedor">Vencedora</p>
+                    <h2 class="name-movie">F1: O Filme</h2>
+                    <div class="divider"></div>
+                    <audio id="audioF1">
+                        <source src="../Sons/Melhor_Som/F1_Hans_Zimmer.mp3" type="audio/mpeg">
+                    </audio>
+                    <button class="btn btn-gold" onclick="F1()">
+                        Escutar Som
+                    </button>
+
+                    <script>
+                        function F1() {
+                            const audio = document.getElementById("audioF1");
+
+                            if (audio.paused) {
+                                audio.play();
+                            } else {
+                                audio.pause();
+                            }
+                        }
+                    </script>
+                    <div class="divider"></div>
+                    <p class="description">O Trabalho: A equipe utilizou microfones customizados capazes de suportar o calor e a vibração dos motores V6 turbo-híbridos. O som não é apenas barulho; é uma sinfonia de trocas de marcha, o assobio do turbo e o vácuo aerodinâmico.</p>
+                    <p class="description">Destaque: A mixagem de som que alterna entre o silêncio abafado do capacete do piloto e o rugido ensurdecedor das arquibancadas, criando uma sensação física de velocidade.
+                </div>
+            </div>
+
+            <div class="nominee-card">
+                <div class="nominee-image group">
+                    <img src="../imagens/Melhor_Som/Pecadores.jpg" alt="Pecadores">
+                </div>
+                <div class="nominee-info">
+                    <h2 class="name-movie">Pecadores (Sinners)</h2>
+                    <div class="divider"></div>
+                    <audio id="audioPecadores">
+                        <source src="../Sons/Melhor_Som/Pecadores_This_Little_Light_of_Mine.mp3" type="audio/mpeg">
+                    </audio>
+                    <button class="btn btn-gold" onclick="Pecadores()">
+                        Escutar Som
+                    </button>
+
+                    <script>
+                        function Pecadores() {
+                            const audio = document.getElementById("audioPecadores");
+
+                            if (audio.paused) {
+                                audio.play();
+                            } else {
+                                audio.pause();
+                            }
+                        }
+                    </script>
+                    <div class="divider"></div>
+                    <p class="description">O Trabalho: O filme utiliza frequências baixas (infrassons) para criar uma sensação instintiva de pavor no público. O som da floresta e da cidade isolada é tratado como um personagem vivo.</p>
+                    <p class="description">Destaque: O contraste sonoro entre os momentos de silêncio absoluto e as explosões de violência sobrenatural, onde o som das criaturas é uma mistura perturbadora de sons orgânicos e distorções digitais.</p>
+                </div>
+            </div>
+
+            <div class="nominee-card">
+                <div class="nominee-image group">
+                    <img src="../imagens/Melhor_Som/Sirat.jpg" alt="Sirat">
+                </div>
+                <div class="nominee-info">
+                    <h2 class="name-movie">Sirât</h2>
+                    <div class="divider"></div>
+                    <audio id="audioSirat">
+                        <source src="../Sons/Melhor_Som/Sirat_Kangding_Ray.mp3" type="audio/mpeg">
+                    </audio>
+
+                    <button class="btn btn-gold" onclick="Sirat()">
+                        Escutar Som
+                    </button>
+
+                    <script>
+                        function Sirat() {
+                            const audio = document.getElementById("audioSirat");
+                            
+                            if (audio.paused) {
+                                audio.play();
+                            } else {
+                                audio.pause();
+                            }
+                        }
+                    </script>
+                    <div class="divider"></div>
+                    <p class="description">O Trabalho: Foca na sonoridade dos ambientes. Desde o eco em vales profundos até o som detalhado de tecidos, metais e passos em diferentes terrenos.</p>
+                    <p class="description">Destaque: O uso do som para guiar a espiritualidade da trama. A mixagem utiliza o sistema Dolby Atmos para criar uma redoma sonora que coloca o espectador exatamente no centro do conflito ou da meditação do protagonista.</p>
+                </div>
+            </div>
+
+            <div class="nominee-card">
+                <div class="nominee-image group">
+                    <img src="../imagens/Melhor_Som/Frankenstein.jpg" alt="Frankenstein">
+                </div>
+                <div class="nominee-info">
+                    <h2 class="name-movie">Frankenstein</h2>
+                    <div class="divider"></div>
+                    <audio id="audiofrankenstein">
+                        <source src="../Sons/Melhor_Som/The_Creature_Sounds_Frankenstein.mp3" type="audio/mpeg">
+                    </audio>
+
+                    <button class="btn btn-gold" onclick="Frankenstein()">
+                        Escutar Som
+                    </button>
+
+                    <script>
+                        function Frankenstein() {
+                            const audio = document.getElementById("audiofrankenstein");
+                            
+                            if (audio.paused) {
+                                audio.play();
+                            } else {
+                                audio.pause();
+                            }
+                        }
+                    </script>
+                    <div class="divider"></div>
+                    <p class="description">O Trabalho: O laboratório de Victor Frankenstein é um banquete sonoro de fluidos borbulhando, eletricidade estática e engrenagens pesadas. O som da Criatura (respiração, passos pesados) é desenhado para evocar tanto medo quanto pena.</p>
+                    <p class="description">Destaque: O trabalho de Foley (efeitos sonoros de estúdio). O som da pele "costurada" e o movimento das articulações da Criatura trazem um realismo tátil essencial para a imersão no horror gótico.</p>
+                </div>
+            </div>
+
+            <div class="nominee-card">
+                <div class="nominee-image group">
+                    <img src="../imagens/Melhor_Som/Uma_Batalha_Apos_A_Outra.jpg" alt="Uma Batalha Após a Outra">
+                </div>
+                <div class="nominee-info">
+                    <h2 class="name-movie">Uma Batalha Após a Outra</h2>
+                    <div class="divider"></div>
+                    <audio id="audioumabatalha">
+                        <source src="../Sons/Melhor_Som/Jonny_Greenwood_uma_batalha_após_a_outra.mp3" type="audio/mpeg">
+                    </audio>
+
+                    <button class="btn btn-gold" onclick="UmaBatalhaAposAOutra()">
+                        Escutar Som
+                    </button>
+
+                    <script>
+                    function UmaBatalhaAposAOutra() {
+                        const audio = document.getElementById("audioumabatalha");
+                        
+                        if (audio.paused) {
+                            audio.play();
+                        } else {
+                            audio.pause();
+                        }
+                    }
+                    </script>
+                    <div class="divider"></div>
+                    <p class="description">O Trabalho: A equipe priorizou o som direto, capturando a energia das ruas e a cacofonia das cenas de perseguição sem excesso de polimento.</p>
+                    <p class="description">Destaque: A integração entre o som ambiente e a trilha sonora. A música e os ruídos da cidade (buzinas, sirenes, multidões) se fundem de forma que o espectador sente o caos político e social da narrativa através dos ouvidos.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

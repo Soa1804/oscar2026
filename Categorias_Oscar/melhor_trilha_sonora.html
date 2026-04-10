@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>98th Academy Awards | Melhor Trilha Sonora</title>
+    
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="dark-theme">
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">OSCAR 2026</div>
+            <div class="nav-links">
+                <a href="../index.html">Home</a>
+                <a href="../categorias.html">Categorias</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-bg">
+                <div class="hero-overlay"></div>
+                <img src="../imagens/imagens_categorias/melhor_trilha_sonora.jpg" alt="Cinematic Stage">
+            </div>
+            <div class="hero-content">
+                <p class="tagline">98th Annual Academy Awards</p>
+                <h1 class="hero-title">Melhor <span class="italic-text">Trilha Sonora</span></h1>
+                <p class="hero-description">
+                    Conheça os candidatos à Premiação do Oscar 2026 por Melhor Trilha Sonora.
+                </p>
+            </div>
+        </section>
+
+        <section class="gallery-container">
+            <div class="nominee-card">
+                <div class="nominee-image group">
+                    <img src="../imagens/Melhor_Trilha_Sonora/Pecadores.jpg" alt="Pecadores">
+                </div>
+                <div class="nominee-info">
+                    <p class="vencedor">Vencedora</p>
+                    <h2 class="name-movie">Pecadores (Sinners)</h2>
+                    <div class="divider"></div>
+                    <audio id="audiopecadores">
+                        <source src="../Sons/Melhor_Trilha_Original/Pecadores_I_Lied_to_You_Miles_Caton.mp3" type="audio/mpeg">
+                    </audio>
+                    <button class="btn btn-gold" onclick="Pecadores()">
+                        Escutar Som
+                    </button>
+
+                    <script>
+                        function Pecadores() {
+                            const audio = document.getElementById("audiopecadores");
+
+                            if (audio.paused) {
+                                audio.play();
+                            } else {
+                                audio.pause();
+                            }
+                        }
+                    </script>
+                    <div class="divider"></div>
+                    <p class="description">Compositor: Ludwig Göransson.</p>
+                    <p class="description">A Sonoridade: Göransson continua sua fase de experimentação radical. Para o horror gótico de Coogler, ele mistura instrumentos tradicionais do sul dos EUA (como o banjo e o violino fiddle) com distorções eletrônicas e sons industriais.</p>
+                    <p class="description">O Impacto: A trilha cria uma sensação de opressão constante. O uso de silêncios súbitos seguidos por batidas tribais pesadas acentua o terror sobrenatural e a tensão racial da trama.</p>   
+                </div>
+            </div>
+
+            <div class="nominee-card">
+                <div class="nominee-image group">
+                    <img src="../imagens/Melhor_Trilha_Sonora/Uma_Batalha_Apos_A_Outra.jpg" alt="Uma Batalha Após a Outra">
+                </div>
+                <div class="nominee-info">
+                    <h2 class="name-movie">Uma Batalha Após a Outra</h2>
+                    <div class="divider"></div>
+                    <audio id="audioUmaBatalhaAposAOutra">
+                        <source src="../Sons/Melhor_Trilha_Original/Jonny_Greenwood_uma_batalha_após_a_outra.mp3" type="audio/mpeg">
+                    </audio>
+                    <button class="btn btn-gold" onclick="UmaBatalhaAposAOutra()">
+                        Escutar Som
+                    </button>
+
+                    <script>
+                        function UmaBatalhaAposAOutra() {
+                            const audio = document.getElementById("audioUmaBatalhaAposAOutra");
+
+                            if (audio.paused) {
+                                audio.play();
+                            } else {
+                                audio.pause();
+                            }
+                        }
+                    </script>
+                    <div class="divider"></div>
+                    <p class="description">Compositor: Jonny Greenwood.</p>
+                    <p class="description">A Sonoridade: O guitarrista do Radiohead entrega uma composição densa e eclética. A trilha transita entre o jazz caótico, cordas barrocas e sintetizadores analógicos dos anos 70 e 80.</p>
+                    <p class="description">O Impacto: Greenwood consegue traduzir a paranoia política de Paul Thomas Anderson em música. A trilha não apenas acompanha as imagens, mas dita o ritmo nervoso e imprevisível da narrativa épica de quase três horas.</p>
+                </div>
+            </div>
+
+            <div class="nominee-card">
+                <div class="nominee-image group">
+                    <img src="../imagens/Melhor_Trilha_Sonora/Bugonia.jpg" alt="Bugonia">
+                </div>
+                <div class="nominee-info">
+                    <h2 class="name-movie">Bugonia</h2>
+                    <div class="divider"></div>
+                    <audio id="audioBugonia">
+                        <source src="../Sons/Melhor_Trilha_Original/Jerskin_Fendrix_Bees_Bugonia.mp3" type="audio/mpeg">
+                    </audio>
+
+                    <button class="btn btn-gold" onclick="Bugonia()">
+                        Escutar Som
+                    </button>
+
+                    <script>
+                        function Bugonia() {
+                            const audio = document.getElementById("audioBugonia");
+                            
+                            if (audio.paused) {
+                                audio.play();
+                            } else {
+                                audio.pause();
+                            }
+                        }
+                    </script>
+                    <div class="divider"></div>
+                    <p class="description">Compositor: Jerskin Fendrix.</p>
+                    <p class="description">A Sonoridade: Seguindo o tom bizarro do filme de Yorgos Lanthimos, a música é propositalmente estranha, utilizando instrumentos de sopro desafinados, coros infantis e estruturas rítmicas que desafiam a lógica tonal.</p>
+                    <p class="description">O Impacto: A trilha reforça a sensação de desequilíbrio mental do protagonista. É uma composição que "incomoda" de forma brilhante, tornando-se essencial para a atmosfera de humor ácido e ficção científica do filme.</p>
+                </div>
+            </div>
+
+            <div class="nominee-card">
+                <div class="nominee-image group">
+                    <img src="../imagens/Melhor_Trilha_Sonora/Frankenstein.jpg" alt="Frankenstein">
+                </div>
+                <div class="nominee-info">
+                    <h2 class="name-movie">Frankenstein</h2>
+                    <div class="divider"></div>
+                    <audio id="audiofrankenstein">
+                        <source src="../Sons/Melhor_Trilha_Original/Frankenstein_Explosion_Alexandre_Desplat.mp3" type="audio/mpeg">
+                    </audio>
+
+                    <button class="btn btn-gold" onclick="Frankenstein()">
+                        Escutar Som
+                    </button>
+
+                    <script>
+                        function Frankenstein() {
+                            const audio = document.getElementById("audiofrankenstein");
+                            
+                            if (audio.paused) {
+                                audio.play();
+                            } else {
+                                audio.pause();
+                            }
+                        }
+                    </script>
+                    <div class="divider"></div>
+                    <p class="description">Compositor: Alexandre Desplat.</p>
+                    <p class="description">A Sonoridade: Desplat entrega uma partitura majestosa e profundamente melancólica. Com o uso de uma orquestra completa, ele foca em temas de cordas e piano que evocam a solidão existencial da Criatura.</p>
+                    <p class="description">O Impacto: É a trilha mais clássica e emocional da lista. Ela humaniza o monstro de Del Toro, trazendo uma beleza trágica que remete ao romantismo europeu do século XIX, contrastando com os momentos de percussão intensa nas cenas de criação.</p>
+                </div>
+            </div>
+
+            <div class="nominee-card">
+                <div class="nominee-image group">
+                    <img src="../imagens/Melhor_Trilha_Sonora/Hamnet.jpg" alt="Hamnet">
+                </div>
+                <div class="nominee-info">
+                    <h2 class="name-movie">Hamnet: A vida Antes de Hamlet</h2>
+                    <div class="divider"></div>
+                    <audio id="audioHamnet">
+                        <source src="../Sons/Melhor_Trilha_Original/Hamnet_Max_Richter_Of_The_Undiscovered_Country.mp3" type="audio/mpeg">
+                    </audio>
+
+                    <button class="btn btn-gold" onclick="Hamnet()">
+                        Escutar Som
+                    </button>
+
+                    <script>
+                    function Hamnet() {
+                        const audio = document.getElementById("audioHamnet");
+                        
+                        if (audio.paused) {
+                            audio.play();
+                        } else {
+                            audio.pause();
+                        }
+                    }
+                    </script>
+                    <div class="divider"></div>
+                    <p class="description">Compositor: Dan Romer.</p>
+                    <p class="description">A Sonoridade: Uma trilha minimalista e naturalista. O foco está em instrumentos acústicos, sons da natureza integrados à melodia e vocais etéreos que remetem ao folclore inglês antigo.</p>
+                    <p class="description">O Impacto: A música de Hamnet funciona como uma oração silenciosa. Ela é sutil, raramente se sobrepondo aos diálogos, mas é fundamental para construir o estado de espírito meditativo e o processamento do luto que Chloé Zhao explora na tela.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>
